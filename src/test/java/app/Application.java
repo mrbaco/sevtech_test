@@ -27,7 +27,6 @@ public class Application {
         } else {
             ChromeOptions options = new ChromeOptions();
 
-            // и кто же, спрашивается, ставит что-то с linkedin, зная, что он заблокирован в РФ?
             options.addArguments("--host-resolver-rules=MAP *.linkedin.com 127.0.0.1");
 
             options.setExperimentalOption("w3c", false);
