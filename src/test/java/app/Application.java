@@ -15,8 +15,8 @@ public class Application {
 
     private final WebDriver driver;
 
-    private AdminPage adminPage;
-    private MainPage mainPage;
+    private final AdminPage adminPage;
+    private final MainPage mainPage;
 
     public Application() {
         String browser = System.getProperty("browser");
